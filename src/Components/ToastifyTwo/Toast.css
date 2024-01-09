@@ -1,0 +1,26 @@
+/* Toast.css */
+@keyframes mymove {
+  from {right: 0px;}
+  to {right: 200px;}
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right:-200px;
+    
+    
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px; 
+     animation: mymove 5s infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    
+    opacity: 0;
+}
+  
+  .toast.show {
+    opacity: 1;
+  }
+  
