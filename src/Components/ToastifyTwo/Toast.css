@@ -1,17 +1,17 @@
 /* Toast.css */
 @keyframes mymove {
-  from {right: 0px;}
-  to {right: 200px;}
+  from {right: -100px;}
+  to {right:40px;}
 }
 
 .toast {
     position: fixed;
-    bottom: 20px;
-    right:-200px;
+    top: 100px;
+   
     
     
     color: #fff;
-    padding: 10px 20px;
+   
     border-radius: 5px; 
      animation: mymove 5s infinite;
     opacity: 0;
